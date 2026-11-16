@@ -1,0 +1,19 @@
+{
+  "name": "archon-proving-ground",
+  "version": "1.0.0",
+  "description": "An Archon did:cid agent through the Agent Lab proving ground doors (x401, aauth)",
+  "scripts": {
+    "x401": "node x401.mjs",
+    "aauth": "node aauth.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@didcid/cipher": "^0.6.0",
+    "@didcid/clients": "^0.3.0",
+    "@didcid/keymaster": "^0.8.0",
+    "@hellocoop/httpsig": "^2.7.1",
+    "didwebvh-ts": "^3.1.0",
+    "jose": "^6.2.17"
+  }
+}
